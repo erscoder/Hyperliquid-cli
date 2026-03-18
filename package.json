@@ -1,5 +1,5 @@
 {
-  "name": "hyperliquid-cli",
+  "name": "@erscoder/hyperliquid-cli",
   "version": "1.0.0",
   "description": "Agent-friendly CLI for the Hyperliquid DEX — market data, trading, and account management",
   "main": "dist/index.js",
@@ -42,5 +42,8 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

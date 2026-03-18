@@ -1,6 +1,6 @@
-# hyperliquid-cli
+# @erscoder/hyperliquid-cli
 
-[![npm version](https://img.shields.io/npm/v/hyperliquid-cli.svg)](https://www.npmjs.com/package/hyperliquid-cli)
+[![npm version](https://img.shields.io/npm/v/@erscoder/hyperliquid-cli.svg)](https://www.npmjs.com/package/@erscoder/hyperliquid-cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen.svg)](https://nodejs.org)
 
@@ -10,7 +10,7 @@ Query market data, manage positions, and execute trades — all from your termin
 
 > Part of the Hyperliquid toolset:
 > - [`hyperliquid-mcp`](https://github.com/erscoder/hyperliquid-mcp) — MCP server for Claude Desktop / LLM clients
-> - **`hyperliquid-cli`** — CLI for agents, scripts, and developers ← you are here
+> - **`@erscoder/hyperliquid-cli`** — CLI for agents, scripts, and developers ← you are here
 
 ---
 
@@ -26,7 +26,7 @@ AI agents (OpenClaw, AutoGPT, CrewAI, etc.) work better with CLI tools than with
 ## Installation
 
 ```bash
-npm install -g hyperliquid-cli
+npm install -g @erscoder/hyperliquid-cli
 ```
 
 Verify:
@@ -307,7 +307,7 @@ price = hl("price BTC")["price"]
 | Project | Use case |
 |---------|----------|
 | [hyperliquid-mcp](https://github.com/erscoder/hyperliquid-mcp) | MCP server for Claude Desktop and MCP-compatible clients |
-| **hyperliquid-cli** | CLI for agents, scripts, and developers |
+| **@erscoder/hyperliquid-cli** | CLI for agents, scripts, and developers |
 
 **When to use which:**
 - **MCP**: You're using Claude Desktop, Cursor, or another MCP client
