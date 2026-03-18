@@ -1,0 +1,46 @@
+{
+  "name": "hyperliquid-cli",
+  "version": "1.0.0",
+  "description": "Agent-friendly CLI for the Hyperliquid DEX — market data, trading, and account management",
+  "main": "dist/index.js",
+  "bin": {
+    "hl": "./bin/hl"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "hyperliquid",
+    "cli",
+    "trading",
+    "defi",
+    "perpetuals",
+    "agents"
+  ],
+  "author": "Enrique Rubio <enrique.rubio.developer@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erscoder/hyperliquid-cli"
+  },
+  "dependencies": {
+    "@nktkas/hyperliquid": "^0.17.4",
+    "commander": "^12.1.0",
+    "viem": "^2.47.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
